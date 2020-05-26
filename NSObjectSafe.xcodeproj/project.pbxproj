@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A76C5F247CEE9F00E685A5 /* SZNSObjectSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A76C5E247CEE9F00E685A5 /* SZNSObjectSafeTests.m */; };
 		557A51D31C323CD300D5B6B6 /* NSObjectSafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A51C81C323CD200D5B6B6 /* NSObjectSafe.framework */; };
 		557A51D81C323CD300D5B6B6 /* NSObjectSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 557A51D71C323CD300D5B6B6 /* NSObjectSafeTests.m */; };
 		557A51E51C323D6500D5B6B6 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 557A51E31C323D6500D5B6B6 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21A76C5E247CEE9F00E685A5 /* SZNSObjectSafeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNSObjectSafeTests.m; sourceTree = "<group>"; };
 		557A51C81C323CD200D5B6B6 /* NSObjectSafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSObjectSafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		557A51CD1C323CD200D5B6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557A51D21C323CD300D5B6B6 /* NSObjectSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSObjectSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 		557A51D61C323CD300D5B6B6 /* NSObjectSafeTests */ = {
 			isa = PBXGroup;
 			children = (
+				21A76C5E247CEE9F00E685A5 /* SZNSObjectSafeTests.m */,
 				557A51D71C323CD300D5B6B6 /* NSObjectSafeTests.m */,
 				557A51D91C323CD300D5B6B6 /* Info.plist */,
 			);
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A76C5F247CEE9F00E685A5 /* SZNSObjectSafeTests.m in Sources */,
 				557A51D81C323CD300D5B6B6 /* NSObjectSafeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
