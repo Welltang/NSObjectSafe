@@ -223,6 +223,8 @@
     NSMutableAttributedString *s4 = [[NSMutableAttributedString alloc] initWithString:@"abc" attributes:@{NSForegroundColorAttributeName : [UIColor redColor]}];// NSConcreteMutableAttributedString
     NSLog(@"%@ --- %@", s4, s4.class);
     
+    [s4 appendAttributedString:nil];
+    
     // NSConcreteAttributedString & NSConcreteMutableAttributedString init
     NSArray *tempArr1 = @[s1, s2];
     for (NSAttributedString *s in tempArr1) {
